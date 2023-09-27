@@ -10,6 +10,15 @@ app=Flask(__name__)
 def home():
     return render_template('index.html')
 
+@app.route('/affected')
+def affected():
+    return render_template('a.html')
+
+@app.route('/not_affected')
+def not_affected():
+    return render_template('na.html')
+
+
 @app.route('/predict_page',methods=['GET','POST'])
 def predict_page():
     if request.method == 'GET':
@@ -41,12 +50,12 @@ def predict_page():
         
         
         if pred[0] == 0:
-            c="You are not affected by covid-19"
+            c='not_affected'
         else:
-            c="You are  affected by covid-19"
+            c='affected'
         
         
-        return render_template('predict.html',a=c)
+        return redirect(url_for(c))
             
         
 @app.route('/about_us',methods=['GET'])

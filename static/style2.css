@@ -113,7 +113,6 @@ body {
 #survey-form {
     width: 80%;
     margin-left: 160px;
-
     padding: 25px;
     background-color: rgb(165, 42, 42);
     border-radius: 5px;
@@ -164,12 +163,13 @@ fieldset:nth-child(2) input {
     width: 10%;
     background-color: rgb(55, 175, 101);
     margin-top: 15px;
-    margin-left: 400px ;
+    margin-left: 500px ;
+    text-align: center;
     border: none;
-    height: 30px;
+    height: 40px;
     color: white;
     letter-spacing: 1px;
     font-size: 15px;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius:5px;
 }
