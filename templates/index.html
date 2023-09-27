@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CO-19 </title>
+    <link rel="icon" type="image/x-icon/png" href="static/covid-logo.png">
+    <link rel="stylesheet" href="static\style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300&family=Fuggles&family=Poppins&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <a href="{{url_for('home')}}" class="logo"> Co-19 Early Detection </a>
+        <nav class="navbar">
+            <a href="{{url_for('home')}}"> Home </a>
+            <a href="{{url_for('predict_page')}}"> Predict </a>
+            <a href="{{url_for('about_us')}}"> About Us </a>
+        </nav>
+        <div class="social-media">
+            <a href="https://github.com/karthiknair-19"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/karthikbrijeshnair"><i class='bx bxl-linkedin'></i></a>
+        </div>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h1> COVID-19: A Global Challenge </h1>
+            <h3> Pandemic!! </h3>
+            <p>
+                COVID-19 is a comprehensive examination of the coronavirus pandemic that has swept across the world,
+                fundamentally altering our way of life. This CO-19 delves into the various aspects of the crisis, from
+                its origins and rapid spread to its profound impact on healthcare systems, economies, and society at
+                large. It highlights the global cooperation and scientific advancements that emerged in response to this
+                unprecedented challenge while also shedding light on the socio-economic disparities and public health
+                vulnerabilities it exposed. Through a multifaceted lens, this work navigates the complexities of the
+                COVID-19 pandemic and the resilience of individuals, communities, and nations as they grapple with this
+                formidable global challenge.
+            </p>
+            <a href="{{url_for('predict_page')}}" class="btn"> Predict </a>
+        </div>
+
+        <div class="home-img">
+            <div class="corona">
+                <img src="static/covid-logo.png" alt="coronapics">
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Cormorant+Infant:wght@300&family=Fuggles&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+
+.header {
+    position: sticky;
+    display: flex;
+    width: 100%;
+    padding: 30px 8%;
+    background: transparent;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    text-decoration: none;
+    color: #222;
+    font-weight: 600;
+    display: flex;
+    animation: SlideRight 1s ease forwards;
+}
+
+.navbar a {
+    font-weight: 400;
+    margin: 0 20px;
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+    transition: .3s;
+
+}
+
+.navbar {
+    animation: SlideRight 1s ease forwards;
+}
+
+.navbar a:hover {
+    color: #a52a2a;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    height: 40px;
+    animation: SlideRight 1s ease forwards;
+}
+
+.social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    text-decoration: none;
+    border: 2px solid transparent;
+    transform: rotate(45deg);
+    transition: .5s;
+}
+
+.social-media a:hover {
+    border-color: brown;
+}
+
+.social-media a i {
+    font-size: 24px;
+    color: black;
+    transform: rotate(-45deg);
+}
+
+/*keyframes*/
+
+@keyframes SlideRight {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+.profiles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 370px;
+    width: 100%;
+    background: #fff;
+    border-radius: 24px;
+    padding: 25px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+
+.profile-card:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 26%;
+    width: 100%;
+    border-radius: 24px 24px 0 0;
+    background-color: brown;
+}
+
+
+.image {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: brown;
+    padding: 3px;
+}
+
+.image .profile-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    background-color: #fff;
+}
+
+.profile-card .text-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+}
+
+.text-data .name {
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.text-data .job {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.text-data .location {
+    margin-top: 3px;
+    font-size: 15px;
+    font-weight: 250;
+}
+
+.text-data .description {
+    margin-top: 5px;
+    font-size: 10px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.profile-card .social-mediaa {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.social-mediaa .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    margin: 0 8px;
+    background-color: brown;
+    text-decoration: none;
+    transition: all 0.1s ease;
+}
+
+.profile-card .buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.buttons .button {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    border-radius: 24px;
+    margin: 0 10px;
+    padding: 8px 24px;
+    background-color: brown;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.buttons .button:hover {
+    background-color: #79AC78;
+}

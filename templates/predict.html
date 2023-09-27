@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CO-19 </title>
+    <link rel="icon" type="image/x-icon/png" href="static\covid-logo.png">
+    <link rel="stylesheet" href="static/style2.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <a href="{{url_for('predict_page')}}" class="logo"> Co-19 Early Detection </a>
+        <nav class="navbar">
+            <a href="{{url_for('home')}}"> Home </a>
+            <a href="{{url_for('predict_page')}}"> Predict </a>
+            <a href="{{url_for('about_us')}}"> About Us </a>
+        </nav>
+        <div class="social-media">
+            <a href="https://github.com/karthiknair-19"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/karthikbrijeshnair"><i class='bx bxl-linkedin'></i></a>
+        </div>
+    </header>
+
+    <section class="section">
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Thank you for taking your time to predict the early detection of Covid-19</p>
+        <form id="survey-form" action="{{url_for('predict_page')}}" method='post'>
+            <label for="question">Are you suffering from Cough?</label>
+            <select name="Cough" id="dropdown">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+            <label for="question">Are you suffering from Fever</label>
+            <select name="Fever" id="dropdown">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+            <label for="question">Are you suffering from Sore throat?</label>
+            <select name="sore_throat" id="dropdown">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+            <label for="question">Are you suffering from Shortness Breath?</label>
+            <select name="shortness_breath" id="dropdown">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+            <label for="question">Are you suffering from Headache?</label>
+            <select name="Headache" id="dropdown">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+            <label for="question">Is your age above 60?</label>
+            <select name="above_60" id="dropdown">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+            <label for="question">Sex?</label>
+            <select name="sex" id="dropdown">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <label for="question">Reason to predict?</label>
+            <select name="contact" id="dropdown">
+                <option value="Yes">Abroad Visit</option>
+                <option value="No">Contact with Confirmed</option>
+                <option value="Others">Others</option>
+            </select>
+            <button class="submit"> Submit </button>
+        </form>
+    </section>
+  {{a}}
+</body>
+</html>

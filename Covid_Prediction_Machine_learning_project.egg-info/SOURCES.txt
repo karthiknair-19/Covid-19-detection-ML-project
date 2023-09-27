@@ -1,0 +1,6 @@
+setup.py
+Covid_Prediction_Machine_learning_project.egg-info/PKG-INFO
+Covid_Prediction_Machine_learning_project.egg-info/SOURCES.txt
+Covid_Prediction_Machine_learning_project.egg-info/dependency_links.txt
+Covid_Prediction_Machine_learning_project.egg-info/requires.txt
+Covid_Prediction_Machine_learning_project.egg-info/top_level.txt

@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300&family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #eaeaea;
+}
+
+.header {
+    position: sticky;
+    display: flex;
+    width: 100%;
+    padding: 30px 8%;
+    background: transparent;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    text-decoration: none;
+    color: #222;
+    font-weight: 600;
+    display: flex;
+    animation: SlideRight 1s ease forwards;
+}
+
+.navbar a {
+    font-weight: 400;
+    margin: 0 20px;
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+    transition: .3s;
+
+}
+
+.navbar {
+    animation: SlideRight 1s ease forwards;
+}
+
+.navbar a:hover {
+    color: #a52a2a;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    height: 40px;
+    animation: SlideRight 1s ease forwards;
+}
+
+.social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    text-decoration: none;
+    border: 2px solid transparent;
+    transform: rotate(45deg);
+    transition: .5s;
+}
+
+.social-media a:hover {
+    border-color: brown;
+}
+
+.social-media a i {
+    font-size: 24px;
+    color: black;
+    transform: rotate(-45deg);
+}
+
+/*keyframes*/
+
+@keyframes SlideRight {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+body {
+    background-color: #eaeaea;
+    color: black;
+}
+
+#title {
+    text-align: center;
+    margin-bottom: 0;
+
+}
+
+#description {
+    margin-top: 0;
+    text-align: center;
+    font-style: italic;
+}
+
+#survey-form {
+    width: 80%;
+    margin-left: 160px;
+
+    padding: 25px;
+    background-color: rgb(165, 42, 42);
+    border-radius: 5px;
+}
+
+fieldset {
+    border: none;
+    width: 100%;
+    padding: 15px 0;
+}
+
+label,
+fieldset:first-child input,
+select,
+#submit {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+
+textarea {
+    margin-top: 5px;
+    display: block;
+    width: 100%;
+}
+
+
+fieldset:first-child input,
+select {
+    margin: 5px 0;
+    padding: 7px;
+}
+
+fieldset:first-child label {
+    margin: 12px 0;
+}
+
+
+fieldset:nth-child(2) label {
+    margin: 10px 0;
+}
+
+fieldset:nth-child(2) input {
+    margin: 0;
+}
+
+.submit {
+    width: 10%;
+    background-color: rgb(55, 175, 101);
+    margin-top: 15px;
+    margin-left: 400px ;
+    border: none;
+    height: 30px;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
