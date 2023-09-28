@@ -13,11 +13,11 @@ def home():
     return render_template('index.html')
 
 @app.route('/affected')
-def affected():
+def a():
     return render_template('a.html')
 
 @app.route('/not_affected')
-def not_affected():
+def na():
     return render_template('na.html')
 
 
@@ -52,9 +52,9 @@ def predict_page():
         
         
         if pred[0] == 0:
-            c='not_affected'
+            c='na'
         else:
-            c='affected'
+            c='a'
         
         
         return redirect(url_for(c))
