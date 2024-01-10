@@ -56,7 +56,7 @@
   <img alt="Pandas Logo" src="https://pandas.pydata.org/static/img/pandas.svg" height="50" />
   <img alt="Matplotlib Logo" src="https://matplotlib.org/stable/_images/sphx_glr_logos2_003.png" height="50" />
   <img alt="Seaborn Logo" src="https://seaborn.pydata.org/_images/logo-wide-lightbg.svg" height="50" />
-  <img alt="NumPy Logo" src="https://numpy.org/images/logos/numpy.svg" height="50" />
+  <img alt="NumPy Logo" src="https://upload.wikimedia.org/wikipedia/commons/3/31/NumPy_logo_2020.svg" height="50" />
   <!-- Add more libraries as needed -->
 </p>
 
