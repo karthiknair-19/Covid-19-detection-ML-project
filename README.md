@@ -58,7 +58,7 @@
   <img alt="Seaborn Logo" src="https://seaborn.pydata.org/_images/logo-wide-lightbg.svg" height="50" />
   <img alt="NumPy Logo" src="https://upload.wikimedia.org/wikipedia/commons/3/31/NumPy_logo_2020.svg" height="50" />
   <img alt="HTML Logo" src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" height="50" />
-  <img alt="CSS Logo" src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" height="50" />
+  <img alt="CSS Logo" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" height="50" />
   <img alt="Flask Logo" src="https://flask.palletsprojects.com/en/2.1.x/_images/flask-logo.png" height="50" />
   <!-- Add more libraries as needed -->
 </p>
