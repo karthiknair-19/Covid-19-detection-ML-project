@@ -50,8 +50,10 @@
 
 <!-- Frontend and Backend -->
 <h2 align="center">Frontend and Backend</h2>
-- **Frontend :** The frontend is developed using HTML and CSS to provide an intuitive and user-friendly interface for interacting with the prediction model.
-Backend: Flask is used for the backend to handle the prediction requests, communicate with the machine learning model, and serve the predictions to the frontend.
+
+
+- **Frontend:** The frontend is developed using HTML and CSS to provide an intuitive and user-friendly interface for interacting with the prediction model.
+- **Backend:** Flask is used for the backend to handle the prediction requests, communicate with the machine learning model, and serve the predictions to the frontend.
 
 
 <!-- Libraries Used -->
