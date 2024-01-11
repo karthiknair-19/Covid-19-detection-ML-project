@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/karthiknair-19/Greenimages_defect_checker-CNN-/assets/124065232/cc306667-df84-4283-bf92-2b6359e1db34" alt="GIF Showcase" width="80%">
+  <img src="https://github.com/karthiknair-19/Covid-19-detection-ML-project/assets/124065232/a9fed4f4-810d-44d8-b60b-8a30c91c8a33" alt="GIF Showcase" width="80%">
 </p>
 
 <!-- Project Features -->
